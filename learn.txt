@@ -20,4 +20,7 @@
   git checkout<name> 切换分支
   git checkout -b <name> 创建+切换分支
   git merge <name> 合并某分支到当前分支
-  git branch -d<name> 删除分支 
+  git branch -d<name> 删除分支
+  git branch -f master HEAD^3   强制移动master
+  指向哪个分支意味着HEAD指向这个分支      HEAD也可以指向其他节点 :  git checkout 节点哈希 
+  git reset HEAD^   git revert HEAD   
